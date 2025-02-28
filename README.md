@@ -1,55 +1,68 @@
-# Web Development Mini Projects
+# 🚴‍♂️ Bike Rental System
 
-## 📌 About the Repository
-This repository contains multiple web development mini-projects built using **HTML, CSS, JavaScript, and other web technologies**. These projects are designed for learning, experimenting, and improving front-end and full-stack development skills.
+## 📌 About the Project
+The **Bike Rental System** is a web-based application designed to facilitate renting bikes efficiently. It allows users to browse available bikes, book rentals, and manage their reservations seamlessly.
 
 ---
 
-## 🚀 Projects Included
-### 🔹 1. Animated Car
-- **Description**: A simple animated car using CSS animations and JavaScript.
-- **Tech Stack**: HTML, CSS, JavaScript
-- **Live Demo**: [Link Here](#) *(Update this with the actual demo link)*
+## 🚀 Features
+- 🏍 **User Registration & Login**
+- 🚲 **Browse Available Bikes**
+- 📅 **Book & Manage Reservations**
+- 💳 **Payment Integration**
+- 📊 **Admin Dashboard for Bike Management**
 
-### 🔹 2. [Your Next Project]
-- **Description**: Briefly describe what this project does.
-- **Tech Stack**: HTML, CSS, JS, etc.
-- **Live Demo**: [Link Here](#)
+---
 
-(Add more projects as needed.)
+## 🛠️ Tech Stack
+- **Frontend**: React.js, HTML, CSS, Bootstrap
+- **Backend**: Node.js (Express) or Django/Flask
+- **Database**: MongoDB, PostgreSQL, or MySQL
 
 ---
 
 ## 📥 Installation & Setup
-1. **Clone this repository**
+1. **Clone the repository**
    ```sh
-   git clone https://github.com/DhavalNayee29/Web-Development-Mini_Projects-Main.git
+   git clone https://github.com/DhavalNayee29/Bike-Rental-System.git
    ```
 2. **Navigate to the project folder**
    ```sh
-   cd Web-Development-Mini_Projects-Main
+   cd Bike-Rental-System
    ```
-3. **Open the project in a browser**
-   - If it's a static project, just open the `.html` file in a browser.
-   - If it requires a local server, use:
-     ```sh
-     npx live-server
-     ```
+3. **Install dependencies**
+   ```sh
+   npm install  # For React frontend
+   pip install -r requirements.txt  # If using Python backend
+   ```
+4. **Run the application**
+   ```sh
+   npm start
+   ```
+   *(or for Django: `python manage.py runserver`)*
 
 ---
 
-## 💡 How to Contribute
-Contributions are welcome! Follow these steps:
+## 🎯 How to Use
+1. **Sign up / Log in**
+2. **Browse available bikes**
+3. **Select rental duration & confirm booking**
+4. **Make a payment (if required)**
+5. **Pick up the bike & enjoy your ride!**
+
+---
+
+## 💡 Contribution Guide
 1. **Fork the repository**
 2. **Create a new branch**
    ```sh
    git checkout -b feature-name
    ```
-3. **Make your changes and commit**
+3. **Commit changes**
    ```sh
-   git commit -m "Added a new feature"
+   git commit -m "Added new feature"
    ```
-4. **Push your changes**
+4. **Push the branch**
    ```sh
    git push origin feature-name
    ```
